@@ -1,0 +1,171 @@
+.head{
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    padding-left: 120px;
+    padding-right: 115px;
+    align-items:center; 
+}
+.logo{
+     font-family: 'Marck Script', cursive;
+     font-size: 45px;
+}
+.navigation{
+    font-family: 'Marck Script', cursive;
+    font-size: 30px;
+    
+}
+.navigation > nav a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+.navigation > nav > a:hover{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    transition: 1.5s;
+    border-radius: 10px;
+     
+}
+/* конец верхняя часть */
+
+/* основа */
+.after-head{
+	
+	height: 660px;
+	 background-image: url("img/fon.jpeg");
+    background-size: cover;
+    background-position:bottom; 
+
+}
+.shadow{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    /*по вертикали*/
+    align-items: center;
+}
+.shadow > .content{
+    color: white;
+    text-align: center;
+}
+.shadow > .content > h1{
+    font-family: 'Jura', sans-serif; 
+}
+.shadow > .content > p {
+    font-family: 'Jura', sans-serif;
+}
+
+.shadow > .content > button > a {
+    width: 220px;
+    height: 70px;
+    color: white;
+    font-family: 'Jura', sans-serif;
+}
+ .shadow > .content > a {
+    text-decoration: none;
+  }    
+.left-btn{
+border: 3px solid white;
+background-color: inherit;
+}
+.right-btn{
+border: 3px solid white;
+background-color: inherit;
+}
+.left-btn:hover{
+border: 3px solid white;
+background-color:black;
+}
+.right-btn:hover{
+border: 3px solid white;
+background-color: black;
+}
+/* конец основы */
+
+/* 1 page */
+
+}
+.about > .top > {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+.about > .bot{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.about > .bot > .item > img{
+    width:58%;
+    height: 68%;
+}
+
+
+/* the end of page 1*/
+
+
+
+/*страница 2*/
+.portfolio{
+    text-align: center;
+
+    
+}
+
+.portfolio > .bot{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.portfolio > .bot > .item{
+    margin: 10px;
+    height: 360px;
+    width: 360px;
+    background-size: cover;
+}
+.portfolio > button{
+    margin: 20px;
+
+    height: 70px;
+    width: 220px;
+
+    border: none;
+    color: white;
+    background-color: rgb(0,137,123);
+
+}
+/*конец страница 2*/
+
+ /* страница 3*/
+}
+.blog > .top{
+    text-align: center;
+}
+.blog > .bot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.blog > .bot > .item{
+    width: 40vw;
+    height: 80vh;
+}
+.blog > .bot > .cont{
+    padding-left: 2vw;
+}
+.blog > .bot > .cont > h1:hover{
+    color: rgb(0,137,123);
+}
+.blog > .bot > .img{
+    background-position: center;
+    background-size: cover;
+}
+/*конец Страница 3*/
+
